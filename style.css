@@ -264,14 +264,3 @@ body > p:last-of-type {
   section > div { border-color: rgba(0,104,181,.18); }
   section > div p::after { background: linear-gradient(180deg, rgba(255,255,255,0), var(--card)); }
 }
-
-/* ===== Tips (non-rendering comments) =====
-  • To add images per milestone, place files in /img and insert an <img> tag inside each card div.
-    Example within a card:
-      <img src="img/1971-4004.jpg" alt="Intel 4004 microprocessor" />
-
-  • For better keyboard accessibility, consider adding: tabindex="0" to each timeline card <div>.
-    That will activate :focus-within and :focus-visible styles.
-
-  • The scroll-snap is already enabled for larger screens. Try trackpad/shift+wheel on desktop.
-*/
